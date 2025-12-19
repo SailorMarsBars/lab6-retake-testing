@@ -1,6 +1,6 @@
 from presidio_anonymizer.sample import sample_run_anonymizer
 
-def test_sample_run_anonymizer_anonymizes_correctly():
+def test_sample_run_anonymizer():
     # 1. Define inputs
     input_text = "My name is Bond."
     input_start = 11
